@@ -1,0 +1,21 @@
+#main{
+    border: 2px solid black;
+    max-width: 1520px; 
+    margin: 0 auto; 
+    padding: 0px;
+}
+
+#admin-sidebar{
+    height: 91vh;
+    border-right: 2px solid black;
+    text-align: center;
+    background:linear-gradient(90deg, rgb(11, 11, 11) 45%, rgb(111, 111, 107) 88%);
+}
+#admin-button{
+    background:linear-gradient(90deg, rgb(3, 52, 46) 37%, rgba(0,203,208,1) 53%, rgba(189,234,237,1) 78%);
+    margin-bottom: 3px;
+    transition: background-color 0.3s;
+}
+#admin-button:hover{
+    background-color:black ;
+}

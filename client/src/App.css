@@ -1,0 +1,32 @@
+.nav{
+  background-color: rgb(173, 173, 244);
+}
+
+#logo h1{  
+  color: white;
+}
+
+#list{
+  list-style: none;  
+
+}
+
+#list li{
+  display: inline-block;
+}
+
+#list li a{
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  display:block;
+}
+#list li a:hover{
+  background-color: white;
+  color: black;
+}
+
+.active{
+  background-color: blueviolet;
+}
+
